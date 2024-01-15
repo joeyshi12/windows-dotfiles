@@ -1,0 +1,10 @@
+set hidden!
+set shell powershell
+set scrolloff 10
+
+cmd open &start $Env:f
+cmd doc $lf -doc | less
+
+map e $nvim $Env:f
+map w $powershell
+map <enter> shell
