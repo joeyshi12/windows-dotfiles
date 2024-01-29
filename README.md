@@ -6,7 +6,6 @@ Dotfiles for my Windows dev environment.
 
 - Windows terminal
 - Powershell version 7
-- `wsl` + Ubuntu
 - `winget`
 
 ## Getting started
