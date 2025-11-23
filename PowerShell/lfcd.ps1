@@ -1,1 +1,1 @@
-lf -print-last-dir $args | Set-Location
+lf.exe -print-last-dir $args | Set-Location
