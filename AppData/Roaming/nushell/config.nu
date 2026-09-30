@@ -19,8 +19,10 @@
 
 $env.config.show_banner = false
 $env.config.shell_integration.osc133 = false
-$env.config.buffer_editor = 'nvim'
+$env.config.buffer_editor = "nvim"
+$env.EDITOR = "nvim"
 $env.PROMPT_COMMAND_RIGHT = ""
+$env.YAZI_FILE_ONE = "C:\\Program Files\\Git\\usr\\bin\\file.exe"
 
 alias v = nvim
 

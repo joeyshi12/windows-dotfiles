@@ -11,10 +11,6 @@ local DEFAULT_SHELL = 'nu.exe'
 -- Use 'pwsh.exe' for PowerShell 7+, or 'powershell.exe' for Windows PowerShell 5.1
 local POWERSHELL = 'pwsh.exe'
 
-config.set_environment_variables = {
-  YAZI_FILE_ONE = 'C:\\Program Files\\Git\\usr\\bin\\file.exe',
-}
-
 -- ---------------------------------------------------------------------------
 -- Shell & domains
 -- ---------------------------------------------------------------------------
