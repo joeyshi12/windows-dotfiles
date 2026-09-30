@@ -23,7 +23,7 @@ Get-ChildItem -Path "AppData\Local" -Directory | ForEach-Object {
         -TargetPath "$env:HOMEPATH\AppData\Local\$ConfigName"
 }
 
-$PowershellPath = $(Split-Path $PROFILE)
-Create-Junction `
-    -SourcePath "$env:HOMEPATH\.dotfiles\Powershell" `
-    -TargetPath $PowershellPath
+New-Item `
+    -ItemType SymbolicLink `
+    -Path "$env:HOMEPATH\.wezterm.lua" `
+    -Value "$env:HOMEPATH\.dotfiles\.wezterm.lua" | Out-Null
