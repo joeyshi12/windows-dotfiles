@@ -14,10 +14,7 @@ Dotfiles for my Windows dev environment.
     winget import -i packages.json --accept-package-agreements --accept-source-agreements
     ```
 3. Enable developer mode in the Windows settings.
-4. Create a softlink for the Wezterm config file.
+4. Create softlinks.
     ```pwsh
-    New-Item `
-        -ItemType SymbolicLink `
-        -Path "$env:HOMEPATH\.wezterm.lua" `
-        -Value "$env:HOMEPATH\.dotfiles\.wezterm.lua" | Out-Null
+    .\bootstrap.ps1
     ```
